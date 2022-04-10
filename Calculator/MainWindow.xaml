@@ -1,0 +1,37 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="FormCalculator" KeyDown="FormCalculator_KeyDown">
+        <Grid.Background>
+            <ImageBrush ImageSource="/calculatorBGImg.jpg"/>
+        </Grid.Background>
+        <Label x:Name="LabelNameOfApp" Content="CALCULON" Margin="354,10,354,388" FontSize="24" FontFamily="Agency FB"/>
+        <Button x:Name="ButtonOne" Content="1" Margin="456,292,274,92" Height="50" Width="70" FontSize="20" FontFamily="Agency FB" Click="ButtonOne_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonNine" Content="9" Margin="606,182,124,202" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonNine_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonEight" Content="8" Margin="531,182,199,202" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonEight_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonSeven" Content="7" Margin="456,182,274,202" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonSeven_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonSix" Content="6" Margin="606,237,124,147" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonSix_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonFive" Content="5" Margin="531,237,199,147" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonFive_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonFour" Content="4" Margin="456,237,274,147" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonFour_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonThree" Content="3" Margin="606,292,124,92" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonThree_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonTwo" Content="2" Margin="531,292,199,92" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonTwo_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonPlus" Content="+" Margin="681,292,49,92" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonPlus_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonMinus" Content="-" Margin="681,237,49,147" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonMinus_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonEqual" Content="=" Margin="681,347,49,37" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonEqual_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonNegative" Content="+/-" Margin="456,347,274,37" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonNegative_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonComma" Content="," Margin="606,347,124,37" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonMultiply" Content="x" Margin="681,182,49,202" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonMultiply_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonDivide" Content="/" Margin="681,127,49,257" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonDivide_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonZero" Content="0" Margin="531,347,199,37" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonZero_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonDeleteAll" Content="C" Margin="456,127,274,257" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonDeleteAll_Click" Background="#FFB7E2F7"/>
+        <Button x:Name="ButtonDeleteLast" Content="&lt;-" Margin="531,127,199,257" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Background="#FFB7E2F7" Click="ButtonDeleteLast_Click"/>
+        <Button x:Name="ButtonSquare" Content="x²" Margin="606,127,124,257" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonSquare_Click" Background="#FFB7E2F7"/>
+        <Label x:Name="LabelUserInput" Content="" Margin="456,72,49,312" Background="White"/>
+
+    </Grid>
+</Window>
