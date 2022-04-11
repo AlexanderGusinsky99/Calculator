@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/calculatorBGImg.jpg"/>
         </Grid.Background>
-        <Label x:Name="LabelNameOfApp" Content="CALCULON" Margin="354,10,354,388" FontSize="24" FontFamily="Agency FB"/>
+        <Label x:Name="LabelNameOfApp" Content="CALCULON" Margin="354,10,350,386" FontSize="24" FontFamily="Agency FB"/>
         <Button x:Name="ButtonOne" Content="1" Margin="456,292,274,92" Height="50" Width="70" FontSize="20" FontFamily="Agency FB" Click="ButtonOne_Click" Background="#FFB7E2F7"/>
         <Button x:Name="ButtonNine" Content="9" Margin="606,182,124,202" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonNine_Click" Background="#FFB7E2F7"/>
         <Button x:Name="ButtonEight" Content="8" Margin="531,182,199,202" Width="70" Height="50" FontSize="20" FontFamily="Agency FB" Click="ButtonEight_Click" Background="#FFB7E2F7"/>
